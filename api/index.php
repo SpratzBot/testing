@@ -287,7 +287,7 @@
             btn.disabled = true;
             
             try {
-                const response = await fetch('refresh.php', {
+                const response = await fetch('/api/refresh.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
