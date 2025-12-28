@@ -5,7 +5,13 @@
     }
   },
   "routes": [
-    { "src": "/refresh.php", "dest": "/api/refresh.php" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
+    {
+      "src": "/api/refresh.php",
+      "dest": "/api/refresh.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
   ]
 }
